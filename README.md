@@ -1,14 +1,9 @@
 ![Lucas Melo](banner.gif?v=74a111d)
 
-I turn ambiguous enterprise requirements into shipped production systems: LLM-powered
-tooling (including a RAG-based application), unified automation platforms, and the
-Kubernetes infrastructure that runs them unattended in production.
-
-## What I build
 
 I build and run unified automation platforms (CLI, desktop app, web control panel) that manage
 large-scale enterprise workflows end to end, used daily across thousands of files and multiple
-production programs from one shared codebase. That includes:
+production programs from one shared codebase.
 
 - A FastAPI web control panel backed by a Postgres job queue and a real-time, webhook-driven
   event pipeline (HMAC-verified deliveries, with a reconciliation sweep for full audit
@@ -37,7 +32,7 @@ Most of this lives in private client repos, so what's public here is personal re
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-```
+
 ⠀⠀⠀⠀⠀⠀⠀⢀⡤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⣰⣋⣷⠼⠷⠒⠒⠒⠒⠶⠤⡤⠶⠒⣛⡑⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⢀⡤⠞⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠁ ⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -54,4 +49,4 @@ Most of this lives in private client repos, so what's public here is personal re
 ⠀⠀⠀⡏⠀⠀⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢾
 ⠀⠀⠀⢿⡃⣀⠈⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠗
 ⠀⠀⠀⠈⠻⠧⣤⠤⠞⠓⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠚⠰⣤⠤⠖⠜⢾
-```
+
