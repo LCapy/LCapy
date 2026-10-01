@@ -1,4 +1,4 @@
-![Lucas Melo](banner.gif?v=74a111d)
+![Lucas Melo](banner.gif?v=0fa9eb8)
 
 
 I build and run unified automation platforms (CLI, desktop app, web control panel) that manage
