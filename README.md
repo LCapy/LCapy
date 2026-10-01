@@ -5,20 +5,6 @@ I build and run unified automation platforms (CLI, desktop app, web control pane
 large-scale enterprise workflows end to end, used daily across thousands of files and multiple
 production programs from one shared codebase.
 
-- A FastAPI web control panel backed by a Postgres job queue and a real-time, webhook-driven
-  event pipeline (HMAC-verified deliveries, with a reconciliation sweep for full audit
-  coverage)
-- Scheduled Kubernetes CronJobs (EKS, Helm, GitHub Actions CI/CD) automating status tracking,
-  QA sweeps, and delivery workflows across dev and production environments
-- An LLM pipeline for automated transcription, QA, and client delivery: ASR transcription,
-  human-in-the-loop review, forced word-level alignment, and delivery sanity checks, all
-  tracked through one unified data model
-- A RAG-based tool and an AI-assisted post-editing and terminology toolkit, enriching
-  translation workflows with glossary data, fuzzy matches, and contextual segments
-- TMS integrations and REST API workflows across enterprise systems, defining segmentation
-  rules, token validation, and import/export formats
-
-Most of this lives in private client repos, so what's public here is personal research.
 
 ## Stack
 
