@@ -1,29 +1,51 @@
 # Lucas Melo
 
-Solutions Engineer at Acolad, Data Services division. I build and operate production data
-pipelines: Kubernetes-orchestrated services, FastAPI platforms, and the automation that keeps
-large-scale annotation, QA, and delivery workflows running unattended.
+Solutions Engineer, AI Systems, Customer Delivery & Technical Integration, at Acolad.
 
-Most of my day-to-day work lives in private organization repos, so what's public here is a mix
-of personal research and standalone tools.
+I turn ambiguous enterprise requirements into shipped production systems: LLM-powered
+tooling (including a RAG-based application), unified automation platforms, and the
+Kubernetes infrastructure that runs them unattended in production.
 
-## Featured
+## What I build
+
+At Acolad, I architected and deployed a unified automation platform (CLI, desktop app, and
+web control panel) that manages large-scale localization project lifecycles end to end, used
+daily across thousands of files and multiple enterprise programs from one shared codebase.
+That includes:
+
+- A FastAPI web control panel backed by a Postgres job queue and a real-time, webhook-driven
+  event pipeline (HMAC-verified deliveries, with a reconciliation sweep for full audit
+  coverage)
+- Around 20 scheduled Kubernetes CronJobs (EKS, Helm, GitHub Actions CI/CD) automating status
+  tracking, QA sweeps, and delivery workflows across dev and production environments
+- An LLM pipeline for automated transcription, QA, and client delivery: ASR transcription,
+  human-in-the-loop review, forced word-level alignment, and delivery sanity checks, all
+  tracked through one unified data model
+- A RAG-based tool and an AI-assisted post-editing and terminology toolkit, enriching
+  translation workflows with glossary data, fuzzy matches, and contextual segments
+- TMS integrations and REST API workflows across enterprise systems, defining segmentation
+  rules, token validation, and import/export formats
+
+Most of this lives in private client repos, so what's public here is personal research.
+
+## Featured project
 
 **[embedding-rhizome-classifier](https://github.com/LCapy/embedding-rhizome-classifier)**
-Geometry-native multilingual text classification over a 238-node taxonomy, built on LaBSE
-embeddings. No trained classifier and no labelled inference: classification is a matrix-vector
-product against stored centroids, across all 109 LaBSE-supported languages. Includes a full
-write-up of the method and the deployment architecture.
+Independent research project and production API: multilingual (109-language) text
+classification built on embedding-space geometry instead of a trained model, using
+centroid-based similarity scoring, oblique projection, and topological path coherence over a
+self-designed 238-node taxonomy. Wrote the research paper, built the scoring engine, and
+deployed it as a live FastAPI service.
 
 **[ICU-Validator](https://lcapy.github.io/ICU-Validator/)**
-A browser-based tool for validating ICU message strings inside localization packages. Strips
-comments, checks ICU plural/select syntax against the real rules, and produces a PDF error
-report. No backend, runs entirely client-side.
+Browser-based tool for validating ICU message strings inside localization packages: strips
+comments, checks ICU plural/select syntax, and produces a PDF error report. No backend, runs
+entirely client-side.
 
 ## Stack
 
-Python, FastAPI, PostgreSQL, Kubernetes, Docker, AWS (EKS / RDS / S3), GitHub Actions,
-embeddings and NLP (LaBSE, ASR, forced alignment).
+Python, JavaScript/Node.js, FastAPI, PostgreSQL, Kubernetes (EKS), Docker, AWS (S3, IAM),
+GitHub Actions, LLM/RAG pipelines, embeddings and NLP (LaBSE, ASR, forced alignment).
 
 ---
 
