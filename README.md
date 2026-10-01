@@ -6,10 +6,9 @@ Kubernetes infrastructure that runs them unattended in production.
 
 ## What I build
 
-At Acolad, I architected and deployed a unified automation platform (CLI, desktop app, and
-web control panel) that manages large-scale localization project lifecycles end to end, used
-daily across thousands of files and multiple enterprise programs from one shared codebase.
-That includes:
+I architected and deployed a unified automation platform (CLI, desktop app, and web control
+panel) that manages large-scale localization project lifecycles end to end, used daily across
+thousands of files and multiple enterprise programs from one shared codebase. That includes:
 
 - A FastAPI web control panel backed by a Postgres job queue and a real-time, webhook-driven
   event pipeline (HMAC-verified deliveries, with a reconciliation sweep for full audit
@@ -37,3 +36,22 @@ Most of this lives in private client repos, so what's public here is personal re
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+```
+⠀⠀⠀⠀⠀⠀⠀⢀⡤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣰⣋⣷⠼⠷⠒⠒⠒⠒⠶⠤⡤⠶⠒⣛⡑⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢀⡤⠞⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠁ ⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣰⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢀⡾⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣸⠁⣠⡖⠚⢛⠲⣄⠀⠀⢀⡴⠶⠶⠶⠀⠀⠀⠀⠀⠀⠀⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⡟⢰⠃⠙⡶⠋⠀⠘⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠛⠛⠛⠲⠶⣤⣀⠀⠀⠀⠀⠀⠀
+⣇⣿⠀⠀⣿⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠀⠀⠀⠀⠀⠀⠈⠙⢦⡀⠀⠀⠀
+⢻⣹⡀⠀⠙⠀⠀⢀⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢧⠀⠀
+⠘⢯⡳⣄⣀⢀⣀⡼⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢵
+⠀⠈⠳⣤⣉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⣱
+⠀⠀⠀⠀⠹⡟⠶⠦⢤⡤⠴⠶⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⡸
+⠀⠀⠀⣠⠏⣳⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⡸
+⠀⠀⠀⡏⠀⠀⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢾
+⠀⠀⠀⢿⡃⣀⠈⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠗
+⠀⠀⠀⠈⠻⠧⣤⠤⠞⠓⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠚⠰⣤⠤⠖⠜⢾
+```
