@@ -1,6 +1,4 @@
-# Lucas Melo
-
-Solutions Engineer, AI Systems, Customer Delivery & Technical Integration, at Acolad.
+![Lucas Melo](banner.svg)
 
 I turn ambiguous enterprise requirements into shipped production systems: LLM-powered
 tooling (including a RAG-based application), unified automation platforms, and the
@@ -28,25 +26,14 @@ That includes:
 
 Most of this lives in private client repos, so what's public here is personal research.
 
-## Featured project
-
-**[embedding-rhizome-classifier](https://github.com/LCapy/embedding-rhizome-classifier)**
-Independent research project and production API: multilingual (109-language) text
-classification built on embedding-space geometry instead of a trained model, using
-centroid-based similarity scoring, oblique projection, and topological path coherence over a
-self-designed 238-node taxonomy. Wrote the research paper, built the scoring engine, and
-deployed it as a live FastAPI service.
-
-**[ICU-Validator](https://lcapy.github.io/ICU-Validator/)**
-Browser-based tool for validating ICU message strings inside localization packages: strips
-comments, checks ICU plural/select syntax, and produces a PDF error report. No backend, runs
-entirely client-side.
-
 ## Stack
 
-Python, JavaScript/Node.js, FastAPI, PostgreSQL, Kubernetes (EKS), Docker, AWS (S3, IAM),
-GitHub Actions, LLM/RAG pipelines, embeddings and NLP (LaBSE, ASR, forced alignment).
-
----
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=LCapy&show_icons=true&theme=default&hide_title=true)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
