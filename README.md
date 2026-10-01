@@ -1,4 +1,4 @@
-![Lucas Melo](banner.gif)
+![Lucas Melo](banner.gif?v=74a111d)
 
 I turn ambiguous enterprise requirements into shipped production systems: LLM-powered
 tooling (including a RAG-based application), unified automation platforms, and the
