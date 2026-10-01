@@ -6,15 +6,15 @@ Kubernetes infrastructure that runs them unattended in production.
 
 ## What I build
 
-I architected and deployed a unified automation platform (CLI, desktop app, and web control
-panel) that manages large-scale localization project lifecycles end to end, used daily across
-thousands of files and multiple enterprise programs from one shared codebase. That includes:
+I build and run unified automation platforms (CLI, desktop app, web control panel) that manage
+large-scale enterprise workflows end to end, used daily across thousands of files and multiple
+production programs from one shared codebase. That includes:
 
 - A FastAPI web control panel backed by a Postgres job queue and a real-time, webhook-driven
   event pipeline (HMAC-verified deliveries, with a reconciliation sweep for full audit
   coverage)
-- Around 20 scheduled Kubernetes CronJobs (EKS, Helm, GitHub Actions CI/CD) automating status
-  tracking, QA sweeps, and delivery workflows across dev and production environments
+- Scheduled Kubernetes CronJobs (EKS, Helm, GitHub Actions CI/CD) automating status tracking,
+  QA sweeps, and delivery workflows across dev and production environments
 - An LLM pipeline for automated transcription, QA, and client delivery: ASR transcription,
   human-in-the-loop review, forced word-level alignment, and delivery sanity checks, all
   tracked through one unified data model
