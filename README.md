@@ -18,5 +18,5 @@ production programs from one shared codebase.
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-<p align="center"><img src="capybara.gif?v=__SHA__" width="220" alt="capybara"></p>
+<p align="center"><img src="capybara.gif?v=214c951" width="220" alt="capybara"></p>
 
